@@ -1,0 +1,38 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 2036.7px;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.profileimg {
+ border: 3px solid #777777;
+ border-radius: 50%;
+ width: 80px;
+ height: 79.9px;
+ margin: 41.5px 76px 30px;
+ background-color: #000000
+
+
+}
+
+.profilename {
+  font-size: 18px;
+  color: #dfdfdf;
+  margin: 0 23px 15px;
+}
+
+.profilerole {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+.profilejob {
+  font-size: 14px;
+  color: #777777;
+}

@@ -1,0 +1,67 @@
+.insight {
+  width: 60%;
+  height: 2038px;
+  background-color: #000000;
+  margin: 0 0px 0 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 18px;
+  color: #777777;
+  margin: 28px 0 0 35px;
+}
+
+.gage { 
+  display: flex;
+}
+
+.gageLeft {
+  width: 420px;
+  height: 319px;
+  border-radius: 10px;
+  /* opacity: 0.5; */
+  /* background-color: #1f1f1f; */
+  margin: 20px 20px 0 35px;
+}
+
+.gageRight {
+  width: 420px;
+  height: 319px;
+  border-radius: 10px;
+  /* opacity: 0.5; */
+  /* background-color: #1f1f1f; */
+  margin: 20px 20px 0 35px;
+}
+
+.task {
+  font-size: 18;
+  color: #777777;
+  margin: 29px 25px;
+}
+
+.gageLeft img {
+  width: 369.8px;
+  height: 160.4px;
+  margin: 16px 0 0 25px;
+}
+
+.gageRight img {
+  width: 369.8px;
+  height: 160.4px;
+  margin: 16px 0 0 25px;
+}
+
+.status {
+  font-size: 18px;
+color: #ff0062;
+  margin: 16.5px 0 7px 173.4px;
+}
+
+.statusP {
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 187.4px;
+  
+}
+

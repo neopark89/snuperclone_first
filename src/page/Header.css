@@ -1,0 +1,38 @@
+.header_container {
+  width: 100vw;
+  height: 65px;
+  background-color: #313131;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.top_left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.headerbar_menu a {
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+.top_right {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.headerbar_icon a {
+  margin-right: 30px;
+}
+
+.wslogo {
+  margin-left: 35px;
+}
