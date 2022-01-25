@@ -7,14 +7,16 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <main className="main_container">
-      <Nav />
-      <Search />
-      <div className="main_contents">
-        <Profile />
-        <Subject />
-      </div>
-    </main>
+    <div className="main_body">
+      <main className="main_container">
+        <Nav />
+        <Search />
+        <div className="main_contents">
+          <Profile />
+          <Subject />
+        </div>
+      </main>
+    </div>
   );
 };
 

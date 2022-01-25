@@ -12,7 +12,7 @@ const data = [
 ];
 const Profile = () => {
   return (
-    <aside className="profile">
+    <aside className="profile_container">
       <img
         className="profileimg"
         src="image/Rectangle2762.png"

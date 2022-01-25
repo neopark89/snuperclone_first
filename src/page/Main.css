@@ -1,10 +1,14 @@
+.main_body {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+}
+
 .main_container {
-  min-width: 1200px;
-  height: 100%;
-  background-color: #1f1f1f;  
+  width: calc(100vw - 240px);
 }
 
 .main_contents {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
 }
