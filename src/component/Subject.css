@@ -1,36 +1,39 @@
 .insight_container {
   height: 2038px;
-  width: calc(78.8%);
+  width: 930px;
   background-color: #000000;
   border-radius: 10px;
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  margin: 28px 0 20px 35px;
+}
+
+.title h1 {
   font-size: 18px;
   color: #777777;
-  margin: 28px 0 52px 35px;
   line-height: 24px;
   letter-spacing: -0.45px;
+  margin-right: 5px;
+}
+
+.title img {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
 }
 
 .gage_box { 
   display: flex;
-  justify-content: space-around;
-  border: 1px solid yellow;
+  justify-content: space-evenly;
+  margin-bottom: 85px;
 }
 
-.gageLeft {
-  /* max-width: 370px; */
-  /* height: 319px;  */
-  border-radius: 10px;
-  /* opacity: 0.5; */
-  /* background-color: #1f1f1f; */
-  /* margin: 20px 20px 0 35px; */
-}
-
-.gageRight {
-  /* max-width: 370px; */
-  /* height: 319px; */
+.box_Left, .box_Right {
+  max-width: 420px; 
+  height: 319px;
   border-radius: 10px;
   /* opacity: 0.5; */
   /* background-color: #1f1f1f; */
@@ -40,31 +43,35 @@
 .task {
   font-size: 18;
   color: #777777;
-  margin: 29px 25px;
+  line-height: 24px;
+  letter-spacing: -0.45px;
+  margin: 29px 0 0 25px;
 }
 
-.gageLeft img {
-  width: 369.8px;
-  height: 160.4px;
-  /* margin: 16px 0 0 25px; */
+.gage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.gageRight img {
+.gage img {
   width: 369.8px;
   height: 160.4px;
+  margin-top: 16px;
   /* margin: 16px 0 0 25px; */
 }
 
 .status {
   font-size: 18px;
-color: #ff0062;
-  /* margin: 16.5px 0 7px 173.4px; */
+  color: #ff0062;
+  margin-top: 16.5px;
 }
 
 .statusP {
   font-size: 18px;
   color: #ffffff;
-  /* margin-left: 187.4px; */
+  margin-top: 7px;
   
 }
 
