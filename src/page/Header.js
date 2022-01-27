@@ -7,12 +7,12 @@ const Header = () => {
       <header className="top_left">
         <a href="/">
           <img
-            className="headerbar_logo"
-            src="image/snuper21481.png"
+            className="headerBar_logo"
+            src="image/snuPer21481.png"
             alt="기업로고"
           />
         </a>
-        <nav className="headerbar_menu">
+        <nav className="headerBar_menu">
           <a href="/">대시보드</a>
           <a href="/">과제</a>
           <a href="/">요청</a>
@@ -22,7 +22,7 @@ const Header = () => {
         </nav>
       </header>
       <header className="top_right">
-        <div className="headerbar_icon">
+        <div className="headerBar_icon">
           <a href="/">
             <img src="image/search20279.png" alt="검색" />
           </a>
@@ -33,7 +33,7 @@ const Header = () => {
             <img src="image/member11722.png" alt="멤버" />
           </a>
         </div>
-        <div className="wslogo">
+        <div className="wsLogo">
           <a href="/">
             <img src="image/workspace14823.png" alt="워크스페이스" />
           </a>

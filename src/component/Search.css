@@ -10,7 +10,7 @@
   margin: 23px 0 20px;
 }
 
-.search_container input {
+input {
   border: 0;
   width: 210px;
   height: 60px;
@@ -28,6 +28,10 @@
   color: white;
 }
 
+input:focus {
+  outline: none;
+}
+
 .main_team {
   display: flex;
   right: 40px;
@@ -43,3 +47,35 @@
   color: #777777;
   text-decoration: none;
 }
+
+.search_box {
+  color: white;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  margin-top: 230px;
+  margin-left: 20px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.box_list {
+  margin-top: 20px;
+}
+
+.box_list li {
+  display: flex;
+  align-items: center;
+  padding: 3px 2px;
+}
+
+.box_list img {
+  border: 3px solid #777777;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  margin-right: 5px;
+ 
+ }

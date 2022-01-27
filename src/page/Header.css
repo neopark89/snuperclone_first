@@ -18,7 +18,7 @@ a {
   margin-left: 60px;
 }
 
-.headerbar_menu a {
+.headerBar_menu a {
   margin-left: 35px;
   font-size: 14px;
 }
@@ -29,10 +29,10 @@ a {
   margin-right: 60px;
 }
 
-.headerbar_icon a {
+.headerBar_icon a {
   margin-right: 30px;
 }
 
-.wslogo {
+.wsLogo {
   margin-left: 35px;
 }
