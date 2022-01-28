@@ -22,7 +22,7 @@ const Search = () => {
         <p>나의 팀</p>
         <ul className="box_list">
           {dummy.names.map(name => 
-          <li key={name.id }>
+          <li key={name.id}>
             <img src="image/Rectangle2762.png" alt="팀원1" />
             {name.name}&nbsp;/&nbsp;{name.grade}&nbsp;&#183;&nbsp;{name.role}
             </li>)}
